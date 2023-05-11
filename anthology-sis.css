@@ -112,3 +112,11 @@ a.tile-wide .tile-content.icon:has(span.cmc-icons-settings) span:after {
     display: none;
 }
 
+
+
+
+.tile-recent-student {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
