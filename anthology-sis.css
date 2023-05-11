@@ -1,0 +1,114 @@
+/* 
+    Maintained by Juston Cheney
+
+    Anthology SIS - Admin CSS Overrides
+*/
+a.tile:has(.tile-content.icon), 
+a.tile-wide:has(.tile-content.icon) {
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 2px rgba(0,0,0,0.9);
+    background-color: #9abad5;    
+    background-image: linear-gradient(to bottom right, #002e66, #00060e)
+}
+a.tile:has(.tile-content.icon):hover, 
+a.tile-wide:has(.tile-content.icon):hover {
+    box-shadow: inset 0 200px rgba(0,0,0,0.6);
+}
+
+a.tile-wide .tile-content.icon {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+a.tile-wide .tile-content.icon:has(span.cmc-icons-student) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/graduation-cap.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.cmc-icons-groups) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/conference-call.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.cmc-icons-document-tracking) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/stack-of-paper.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.cmc-icons-tasks) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/untested.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.cmc-icons-report) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/business-report.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.cmc-icons-process) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/workflow.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.cmc-icons-daily) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/overtime.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.cmc-icons-fa-exceptions) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/receipt-declined.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.cmc-icons-query-builder) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/search-in-list.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.cmc-icons-settings) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/open-end-wrench.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+a.tile-wide .tile-content.icon:has(span.tile-setting-icon) span {
+    background-image: url(https://img.icons8.com/fluency/96/null/settings.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+}
+
+a.tile-wide .tile-content.icon:has(span.cmc-icons-student) span::after,
+a.tile-wide .tile-content.icon:has(span.cmc-icons-groups) span:after,
+a.tile-wide .tile-content.icon:has(span.cmc-icons-document-tracking) span:after,
+a.tile-wide .tile-content.icon:has(span.cmc-icons-tasks) span:after,
+a.tile-wide .tile-content.icon:has(span.cmc-icons-report) span:after,
+a.tile-wide .tile-content.icon:has(span.cmc-icons-process) span:after,
+a.tile-wide .tile-content.icon:has(span.cmc-icons-daily) span:after,
+a.tile-wide .tile-content.icon:has(span.cmc-icons-fa-exceptions) span:after,
+a.tile-wide .tile-content.icon:has(span.cmc-icons-query-builder) span:after,
+a.tile-wide .tile-content.icon:has(span.tile-setting-icon) span:before,
+a.tile-wide .tile-content.icon:has(span.cmc-icons-settings) span:after {
+    display: none;
+}
+

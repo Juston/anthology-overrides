@@ -1,0 +1,101 @@
+/* 
+    Maintained by Juston Cheney
+
+    Forms Builder CSS Override
+*/
+
+a.tilecmc {
+   border-radius: 4px;
+   box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+   padding-top: 20px;
+}
+ 
+
+a.tilecmc [class^="tile-image"] {
+    margin-bottom: 2px;
+}
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/settings.png"]) {
+    background-image: url(https://img.icons8.com/fluency/96/null/settings.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+    filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.48));
+}
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/CustomContent.png"]) {
+    background-image: url(https://img.icons8.com/fluency/96/null/upload-to-cloud.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+    filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.48));
+}
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/i18n.png"]) {
+    background-image: url(https://img.icons8.com/fluency/96/null/globe.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+    filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.48));
+}
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/form-designer.png"]) {
+    background-image: url(https://img.icons8.com/fluency/96/null/untested.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+    filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.48));
+}
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/sequence-designer.png"]) {
+    background-image: url(https://img.icons8.com/fluency/96/null/tree-structure.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+    filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.48));
+}
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/export.png"]) {
+    background-image: url(https://img.icons8.com/fluency/96/null/sorting-arrows.png);
+    height: 72px;
+    width: 72px;
+    background-size: contain;
+    margin: auto;
+    filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.48));
+}
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/settings.png"]) img,
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/CustomContent.png"]) img,
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/i18n.png"]) img,
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/form-designer.png"]) img,
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/sequence-designer.png"]) img,
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/export.png"]) img,
+a.tilecmc [class^="tile-image"]:has(img[src="/content/images/import.png"]) img {
+    display: none;
+}
+
+
+.navbar-help a:has(img[src="/Content/Images/help.png"]) {
+    background-image: url(https://img.icons8.com/fluency/96/null/help.png);
+    height: 32px;
+    width: 32px;
+    background-size: contain;
+    display: block;
+}
+
+.navbar-help a:has(img[src="/Content/Images/help.png"]) img {
+    display: none;
+}
+
+
+
+
+.designer-top-header-glyph {
+    background-image: url(https://img.icons8.com/fluency/96/null/left.png);
+    height: 42px;
+    width: 42px;
+    background-size: contain;
+    display: block;
+    margin-right: 6px;
+}
+.designer-top-header-glyph i {
+    display: none;
+}
