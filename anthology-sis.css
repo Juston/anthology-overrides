@@ -120,3 +120,8 @@ a.tile-wide .tile-content.icon:has(span.cmc-icons-settings) span:after {
     overflow: hidden;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
+
+.tile-semi-small {
+    border-radius: 4px;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.1), inset 0 0 0 2px rgba(0,0,0,0.2), inset 0 -80px 80px -80px rgba(0,0,0,0.3);
+}
