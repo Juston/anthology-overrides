@@ -129,9 +129,13 @@ a.tile-wide .tile-content.icon:has(span.cmc-icons-settings) span:after {
 #campusNexusTasks {
     background-image: url(https://img.icons8.com/fluency-systems-filled/48/ffffff/to-do.svg);
     height: 45px;
-    width: 45px;
+    width: 26px;
     background-size: contain;
     display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    margin: 0 6px;
 }
 #campusNexusTasks span {
     display: none;
