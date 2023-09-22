@@ -31,7 +31,7 @@ a.tilecmc [class^="tile-image"]:has(img[src="/content/images/CustomContent.png"]
     filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.48));
 }
 a.tilecmc [class^="tile-image"]:has(img[src="/content/images/i18n.png"]) {
-    background-image: url(https://img.icons8.com/fluency/96/null/globe.png);
+    background-image: url(https://img.icons8.com/color/96/earth-planet--v2.png);
     height: 72px;
     width: 72px;
     background-size: contain;
