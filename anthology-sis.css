@@ -27,7 +27,8 @@ a.tile-wide .tile-content.icon:has(span.cmc-icons-student) span {
     background-size: contain;
     margin: auto;
 }
-a.tile-wide .tile-content.icon:has(span.cmc-icons-groups) span {
+a.tile-wide .tile-content.icon:has(span.cmc-icons-groups) span,
+.cmc-icon.cmc-icons-groups.large {
     background-image: url(https://img.icons8.com/fluency/96/null/conference-call.png);
     height: 72px;
     width: 72px;
@@ -100,6 +101,7 @@ a.tile-wide .tile-content.icon:has(span.tile-setting-icon) span {
 
 a.tile-wide .tile-content.icon:has(span.cmc-icons-student) span::after,
 a.tile-wide .tile-content.icon:has(span.cmc-icons-groups) span:after,
+.cmc-icon.cmc-icons-groups.large::after,
 a.tile-wide .tile-content.icon:has(span.cmc-icons-document-tracking) span:after,
 a.tile-wide .tile-content.icon:has(span.cmc-icons-tasks) span:after,
 a.tile-wide .tile-content.icon:has(span.cmc-icons-report) span:after,
@@ -145,4 +147,11 @@ a.tile-wide .tile-content.icon:has(span.cmc-icons-settings) span:after {
 .studentStatus,
 .statusHistoryStatusColor {
     background-image: linear-gradient(0deg, rgba(0,0,0,0.3), transparent);
+}
+
+
+.ws-workspace-tile.wide {
+    border-radius: 6px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.7), transparent);
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,0.3);
 }
